@@ -159,7 +159,7 @@ router.get('/users/:id/avatar', async (req, res) => {
     }
 })
 
-router.post('/webhooks', async (req, res) => {
+router.get('/webhooks', async (req, res) => {
 try {
         res.status(201).send()
     } catch (e) {
